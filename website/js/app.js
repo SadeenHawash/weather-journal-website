@@ -68,7 +68,7 @@ async function updateUI() {
   try {
     const data = await request.json();
     console.log(data);
-    tempElement.innerHTML = `Temp: ${data.temp} degrees`;
+    tempElement.innerHTML = `Temp: ${Math.round(data.temp)} degrees`;
     contentElement.innerHTML = `Feelings: ${data.feel}`;
     dateElement.innerHTML = `Date: ${data.date}`;
   } catch (error) {
