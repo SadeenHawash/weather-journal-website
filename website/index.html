@@ -135,7 +135,7 @@
                 </div>
                 <div class="weather-img">
                   <img
-                    src="../website/assets/images/weather/partlyCloudy.png"
+                    src="./assets/images/weather/partlyCloudy.png"
                     alt="partly-cloudy"
                   />
                 </div>
@@ -159,10 +159,7 @@
                   <span>Rainy</span>
                 </div>
                 <div class="weather-img">
-                  <img
-                    src="../website/assets/images/weather/rainy.png"
-                    alt="rainy"
-                  />
+                  <img src="./assets/images/weather/rainy.png" alt="rainy" />
                 </div>
               </div>
               <div class="forcast-day">
@@ -184,10 +181,7 @@
                   <span>Sunny</span>
                 </div>
                 <div class="weather-img">
-                  <img
-                    src="../website/assets/images/weather/sunny.png"
-                    alt="sunny"
-                  />
+                  <img src="./assets/images/weather/sunny.png" alt="sunny" />
                 </div>
               </div>
               <div class="forcast-day">
@@ -210,7 +204,7 @@
                 </div>
                 <div class="weather-img">
                   <img
-                    src="../website/assets/images/weather/cloudyRainy.png"
+                    src="./assets/images/weather/cloudyRainy.png"
                     alt="cloudy-rainy"
                   />
                 </div>
@@ -234,10 +228,7 @@
                   <span>Windy</span>
                 </div>
                 <div class="weather-img">
-                  <img
-                    src="../website/assets/images/weather/wind.png"
-                    alt="windy"
-                  />
+                  <img src="./assets/images/weather/wind.png" alt="windy" />
                 </div>
               </div>
               <div class="forcast-day">
@@ -259,10 +250,7 @@
                   <span>Stormy</span>
                 </div>
                 <div class="weather-img">
-                  <img
-                    src="../website/assets/images/weather/stormy.png"
-                    alt="stormy"
-                  />
+                  <img src="./assets/images/weather/stormy.png" alt="stormy" />
                 </div>
               </div>
               <div class="forcast-day">
@@ -284,10 +272,7 @@
                   <span>Cold</span>
                 </div>
                 <div class="weather-img">
-                  <img
-                    src="../website/assets/images/weather/cold.png"
-                    alt="cold"
-                  />
+                  <img src="./assets/images/weather/cold.png" alt="cold" />
                 </div>
               </div>
               <div class="forcast-day">
@@ -357,8 +342,8 @@
           </div>
           <!---------------------- End Of Calendar ---------------->
           <!---------------------- Start Of Form ------------------>
-          <form class="form">
-            <input type="text" placeholder="Enter zipcode" />
+          <div class="form">
+            <input type="text" placeholder="enter zip code here" id="zip" />
             <textarea
               class="myInput"
               id="feelings"
@@ -367,18 +352,19 @@
               cols="45"
             ></textarea>
             <button id="generate" type="submit">Generate</button>
-          </form>
+          </div>
           <div class="holder entry">
             <div class="title">Most Recent Entry</div>
             <div id="entryHolder">
-              <div id="date">km</div>
-              <div id="temp">jjj</div>
-              <div id="content">kk</div>
+              <div id="date"></div>
+              <div id="temp"></div>
+              <div id="content"></div>
             </div>
           </div>
           <!---------------------- End Of Form -------------------->
         </div>
       </div>
     </main>
+    <script src="./js/app.js"></script>
   </body>
 </html>

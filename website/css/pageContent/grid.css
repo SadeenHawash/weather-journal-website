@@ -140,7 +140,7 @@
 
 @media (min-width: 1439px) {
   .forcast-grid-container {
-    grid-template-columns: repeat(auto-fit, 210px);
+    grid-template-columns: repeat(auto-fit, 220px);
   }
 }
 
