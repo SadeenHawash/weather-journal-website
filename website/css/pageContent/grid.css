@@ -1,0 +1,181 @@
+.forcast-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  gap: 15px;
+  padding: 1rem 0;
+}
+
+.forcast-day-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #b7b7b7d0;
+  border-radius: 15px;
+  padding: 0.8rem;
+  gap: 1.5rem;
+}
+
+.forcast-day-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.3rem;
+  letter-spacing: 0.02rem;
+}
+
+.day span {
+  font-size: 0.7rem;
+  color: #b7b7b7e5;
+}
+
+.weather-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.forcast-day {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.wind-rain {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: start;
+}
+
+.wind,
+.rain {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.wind span,
+.rain span {
+  font-size: 0.9rem;
+  color: var(--color-gray);
+}
+.current-temp {
+  font-size: 1.6rem;
+}
+
+/*------------------------------------ RESPONSIVE ---------------------------------------*/
+
+@media (min-width: 375px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 330px);
+  }
+}
+
+@media (min-width: 389px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 335px);
+  }
+}
+
+@media (min-width: 411px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 360px);
+  }
+}
+
+@media (min-width: 479px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 200px);
+  }
+}
+
+@media (min-width: 639px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 280px);
+  }
+}
+
+@media (min-width: 767px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 225px);
+  }
+}
+
+@media (min-width: 809px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 240px);
+  }
+}
+
+@media (min-width: 1023px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 280px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 180px);
+  }
+}
+
+@media (min-width: 1365px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 195px);
+  }
+}
+
+@media (min-width: 1400px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 215px);
+  }
+}
+
+@media (min-width: 1439px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 210px);
+  }
+}
+
+@media (min-width: 1500px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 230px);
+  }
+}
+
+@media (min-width: 1600px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 240px);
+  }
+}
+
+@media (min-width: 1720px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 260px);
+  }
+}
+
+@media (min-width: 1800px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 344px);
+  }
+}
+
+@media (min-width: 1900px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 295px);
+  }
+}
+
+@media (min-width: 2559px) {
+  .forcast-grid-container {
+    grid-template-columns: repeat(auto-fit, 321px);
+  }
+}

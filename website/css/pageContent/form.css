@@ -1,0 +1,56 @@
+.form {
+  padding: 0 1rem;
+  position: relative;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--color-dark-blue);
+}
+
+.form input::placeholder {
+  color: var(--color-gray);
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.form textarea::placeholder {
+  font-family: var(--primary-font);
+  font-size: 0.9rem;
+}
+
+.form textarea:focus {
+  outline: 0;
+}
+
+.form button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  background-color: var(--color-dark-blue);
+  color: white;
+  border-radius: 25px;
+  border: none;
+  position: absolute;
+  right: 1rem;
+  bottom: -2rem;
+}
+
+.holder {
+  background-color: var(--color-blue);
+  color: var(--color-dark-blue);
+  width: 90%;
+  height: 100px;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  overflow-y: auto;
+}
